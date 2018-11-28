@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailRanking", "TrailRanking\TrailRanking.csproj", "{62B846E7-9007-4198-A6C0-21FAA816D41B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailRanking.WebMVC", "TrailRanking\TrailRanking.WebMVC.csproj", "{62B846E7-9007-4198-A6C0-21FAA816D41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trail.Data", "Trail.Data\Trail.Data.csproj", "{724C80A6-182F-4508-BC2C-EDE2905F0472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailRanking.Models", "TrailRanking.Models\TrailRanking.Models.csproj", "{2DBDB87C-2968-4DD7-A235-4ACCF57C21D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailRanking.Contracts", "TrailRanking.Contracts\TrailRanking.Contracts.csproj", "{89A5C550-76BA-4794-9567-8BA2AEBF4555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailRanking.Services", "TrailRanking.Services\TrailRanking.Services.csproj", "{39C7EA35-CB87-4898-BD84-B22D133DD278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailRanking.Tests", "TrailRanking.Tests\TrailRanking.Tests.csproj", "{19AC76AB-BEB4-4A2A-994A-FAD9CB8B6989}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{62B846E7-9007-4198-A6C0-21FAA816D41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62B846E7-9007-4198-A6C0-21FAA816D41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62B846E7-9007-4198-A6C0-21FAA816D41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724C80A6-182F-4508-BC2C-EDE2905F0472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724C80A6-182F-4508-BC2C-EDE2905F0472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724C80A6-182F-4508-BC2C-EDE2905F0472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724C80A6-182F-4508-BC2C-EDE2905F0472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBDB87C-2968-4DD7-A235-4ACCF57C21D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBDB87C-2968-4DD7-A235-4ACCF57C21D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBDB87C-2968-4DD7-A235-4ACCF57C21D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBDB87C-2968-4DD7-A235-4ACCF57C21D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A5C550-76BA-4794-9567-8BA2AEBF4555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A5C550-76BA-4794-9567-8BA2AEBF4555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A5C550-76BA-4794-9567-8BA2AEBF4555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A5C550-76BA-4794-9567-8BA2AEBF4555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C7EA35-CB87-4898-BD84-B22D133DD278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C7EA35-CB87-4898-BD84-B22D133DD278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C7EA35-CB87-4898-BD84-B22D133DD278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C7EA35-CB87-4898-BD84-B22D133DD278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AC76AB-BEB4-4A2A-994A-FAD9CB8B6989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AC76AB-BEB4-4A2A-994A-FAD9CB8B6989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AC76AB-BEB4-4A2A-994A-FAD9CB8B6989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AC76AB-BEB4-4A2A-994A-FAD9CB8B6989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
